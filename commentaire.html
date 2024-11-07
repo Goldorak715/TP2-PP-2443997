@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Commentaire TP1</title>
+</head>
+
+<body>
+  <div class="page">
+    
+
+      <header class="introIndex">
+        <a href="index.html">
+          <img class="logosite" src="img/groupe2.JPG" alt="Saint-Clinclin" />
+        </a>
+        <h1>St-Clinclin</h1>
+      </header>
+      <fieldset>
+    <nav class="nav">
+      <a href="index.html">Accueil</a>
+      <a href="galerie-image.html">Galerie Photo</a>
+      <a href="commentaire.html">Commentaires</a>
+      <a class="connexion" href="connexion.html">Connexion</a>
+    </nav>
+  </fieldset>
+
+  
+    
+    <form action="mailto:william.blouin2000@gmail.com" method="post" class="formulaire-commentaire">
+      <div class="colonnes1">
+      <div class="groupé">
+        <label for="txtPrenom">Prénom*</label>
+        <input type="text" name="txtPrenom" id="txtPrenom" required />
+      </div>
+      <div class="groupé">
+        <label for="txtNom">Nom*</label>
+        <input type="text" name="txtNom" id="txtNom" required />
+      </div>
+    </div>
+      <div class="colonnes1">
+
+        <div class="groupé">
+          <label for="txtCourriel">Courriel*</label>
+          <input type="email" name="txtCourriel" id="txtCourriel" required />
+        </div>
+        <div class="groupé">
+          <label for="txtTelephone">Téléphone</label>
+          <input type="tel" name="txtTelephone" id="txtTelephone" placeholder="###-###-####" required />
+        </div>
+      </div>
+        <div class="colonnes1">
+
+          <div class="groupé">
+            <label for="listProvince">Province</label>
+            <select name="listProvince" id="listProvince">
+              <option value="ON">Ontario</option>
+              <option value="QC" selected>Québec</option>
+              <option value="NE">Nouvelle-Écosse</option>
+              <option value="NB">Nouveau-Brunswick</option>
+              <option value="MB">Manitoba</option>
+              <option value="CB">Colombie-Britannique</option>
+            </select>
+          </div>
+          <div class="groupé">
+            <label for="txtDateN">Date de naissance</label>
+            <input type="date" name="txtDateN" id="txtDateN" />
+          </div>
+        </div>
+          
+      <div class="text-libre">
+        <label for="txt-Libre">Commentaires</label>
+        <textarea id="txt-Libre" name="txt-Libre" rows="7"></textarea>
+      </div>
+      
+      <div>
+        <p>Vos goûts cinématographiques ?</p>
+        <div class="gout-choix">
+          <div class="groupe1">
+            <input type="checkbox" name="choix-film" id="gout-comedie" />
+            <label for="gout-comedie">Comédie</label>
+          </div>
+          <div class="groupe1">
+            <input type="checkbox" name="choix-film" id="gout-drame" />
+            <label for="gout-drame">Drame</label>
+          </div>
+          <div class="groupe1">
+            <input type="checkbox" name="choix-film" id="gout-action" />
+            <label for="gout-action">Action</label>
+          </div>
+          <div class="groupe1">
+            <input type="checkbox" name="choix-film" id="gout-suspense" />
+            <label for="gout-suspense">Suspense</label>
+          </div>
+          <div class="groupe1">
+            <input type="checkbox" name="choix-film" id="gout-horreur" />
+            <label for="gout-horreur">Horreur</label>
+          </div>
+        </div>
+      </div>
+      
+      <div>
+        <p>Comment trouvez-vous le site ?</p>
+        <div class="gout-site">
+          <input type="radio" checked name="note-site" id="excelent" />
+          <label for="excelent">Excelent</label>
+          <input type="radio" name="note-site" id="tres-bien" />
+          <label for="tres-bien">Très bien</label>
+          <input type="radio" name="note-site" id="moyen" />
+          <label for="moyen">Moyen</label>
+          <input type="radio" name="note-site" id="bof" />
+          <label for="bof">Bof</label>
+        </div>
+      </div>
+      
+      <div class="groupe">
+        <button type="submit">Envoyer les commentaires</button>
+      </div>
+    </form>
+    
+    <footer >
+      <fieldset class="bas-de-page">
+        <a href="#top">Haut de la page</a>
+        <p>Copyright 2024</p>
+        <p>420-W11-SF</p>
+        <p>Travail Pratique 1</p>
+        <p class="signature">William Blouin</p>
+      </fieldset>
+    </footer>
+  </div>
+</body>
+
+</html>

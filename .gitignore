@@ -1,0 +1,28 @@
+MonFichier.txt
+
+# Visual Studio (Avec C#)
+*.suo
+*.user
+*.userprefs
+
+# Visual Studio (Avec C++)
+*.exe
+*.dll
+*.lib
+# Visual Studio Code (Avec JavaScript)
+.env
+
+MonDossier/
+
+# Visual Studio (Avec C#)
+.vs/
+bin/
+obj/
+TestResults/
+
+# IntelliJ IDEA (Avec Java)
+.idea/
+
+# Visual Studio Code (Avec JavaScript)
+node_modules/
+out/
