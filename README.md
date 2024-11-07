@@ -10,3 +10,10 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub
 
 
 ![3 6](https://github.com/user-attachments/assets/43fa90ef-afcf-4919-a825-97bbb9f89dbe)
+
+
+## Contributeurs
+* William Blouin - Auteur Principal
+
+## License
+Copyright @ 2024 William Blouin. Tous droits réservés. 
